@@ -6,11 +6,15 @@ This demo shows the current heart rate and step count in an Activity and additio
 
 ## Getting started
 * When opening the project for the first time use the import option instead of open
-* Enable developer options on the watch (https://developer.android.com/training/wearables/apps/debugging)
-* Enable ADB debugging in the developer options
-* Connect the watch to the PC using the USB cable
+* The error message "Failed to find Build Tools revision 28.0.3" may appear. Click "Install Build Tools 28.0.3 and sync project" to install the dependency and continue.
+* Wait until Android Studio is has finished loading the project
+* If the watch was already used to develop an app skip ahead, otherwise follow the next points
+  * Enable developer options on the watch (https://developer.android.com/training/wearables/apps/debugging)
+  * Enable ADB debugging in the developer options
+  * Connect the watch to the PC using the USB cable
+  * Allow debugging in the dialog shown on the watch
 * Push the run button in Android Studio
-* Allow debugging in the dialog shown on the watch
+* Select the watch in the next dialog on press "OK"
 
 ## Additional resources
 * Permission request documentation (https://developer.android.com/training/permissions/requesting)
